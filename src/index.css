@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root{
+    --primary-100:#FF007F;
+    --primary-200:#ff5dae;
+    --primary-300:#ffcdff;
+    --accent-100:#F472B6;
+    --accent-200:#951954;
+    --text-100:#FFFFFF;
+    --text-200:#e0e0e0;
+    --bg-100:#4D0155;
+    --bg-200:#5f1867;
+    --bg-300:#7c3582;
+      
+}
+
+body{
+    background-image: linear-gradient(to top, #4b0764, #4d0155, #4c0048, #49003c, #440231, #3f0529, #390722, #320a1c, #2a0c16, #220d12, #1a0d0e, #0e0c0c);
+}
+
+.bg-radial-gradient {
+    background-image: radial-gradient(circle, #4b0764, #4a0040, #3c0625, #280d15, #0e0c0c);
+  }

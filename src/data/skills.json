@@ -1,0 +1,25 @@
+{
+  "Desarrollo frontend": [
+    { "id": 1, "name": "HTML", "level": "Avanzado", "img":"html5.svg"},
+    { "id": 2, "name": "CSS", "level": "Avanzado", "img":"css_old.svg" },
+    { "id": 3, "name": "JavaScript", "level": "Intermedio", "img":"Javascript.svg" },
+    { "id": 4, "name": "TypeScript", "level": "Básico", "img":"typescript.svg"},
+    { "id": 5, "name": "React", "level": "Intermedio", "img":"react_light.svg"},
+    { "id": 6, "name": "Next", "level": "Básico" ,"img":"nextjs_icon_dark.svg"},
+    { "id": 7, "name": "Astro", "level": "Intermedio", "img":"astro_dark.svg"},
+    { "id": 8, "name": "Vite", "level": "Avanzado", "img":"vitejs.svg"}
+  ],
+  "Estilos y UI": [
+    { "id": 9, "name": "Tailwind CSS", "level": "Avanzado", "img":"tailwindcss.svg"},
+    { "id": 10, "name": "Bootstrap", "level": "Avanzado", "img":"bootstrap.svg"  },
+    { "id": 11, "name": "Figma", "level": "Básico", "img":"figma.svg" },
+    { "id": 12, "name": "Photoshop", "level": "Intermedio", "img":"photoshop.svg"}
+  ],
+  "Desarrollo backend y herramientas": [
+    { "id": 13, "name": "Node", "level": "Avanzado", "img":"nodejs.svg" },
+    { "id": 14, "name": "Python", "level": "Básico", "img":"python.svg"  },
+    { "id": 15, "name": "Git", "level": "Avanzado", "img":"git.svg" },
+    { "id": 16, "name": "GitHub", "level": "Avanzado", "img":"github-dark.svg" },
+    { "id": 17, "name": "Postman", "level": "Básico", "img":"postman.svg"}
+  ]
+}
