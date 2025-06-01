@@ -44,7 +44,7 @@ function About() {
                 {skillList.map((skill) => (
                   <li key={skill.id} className="relative group">
                     <img
-                      src={`/src/assets/icons/${skill.img}`}
+                      src={`/icons/${skill.img}`}
                       alt={skill.name}
                       className="w-12 h-12 cursor-pointer transition-transform transform group-hover:scale-110"
                     />
