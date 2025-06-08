@@ -2,7 +2,7 @@
   "Desarrollo frontend": [
     { "id": 1, "name": "HTML", "level": "Avanzado", "img":"html5.svg"},
     { "id": 2, "name": "CSS", "level": "Avanzado", "img":"css_old.svg" },
-    { "id": 3, "name": "JavaScript", "level": "Intermedio", "img":"Javascript.svg" },
+    { "id": 3, "name": "JavaScript", "level": "Intermedio", "img":"javascript.svg" },
     { "id": 4, "name": "TypeScript", "level": "Básico", "img":"typescript.svg"},
     { "id": 5, "name": "React", "level": "Intermedio", "img":"react_light.svg"},
     { "id": 6, "name": "Next", "level": "Básico" ,"img":"nextjs_icon_dark.svg"},
