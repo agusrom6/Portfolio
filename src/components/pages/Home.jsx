@@ -1,5 +1,8 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
+import { RxDoubleArrowDown } from "react-icons/rx";
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.compat.css";
 
 function Home() {
   return (
@@ -24,7 +27,16 @@ function Home() {
           delaySpeed={1500}
         />
       </p>
-    </div>
+      <ScrollAnimation
+    animateIn="fadeInUp"
+    animateOut="fadeOutUp"
+    offset={0}
+    duration={10}
+    className="absolute bottom-6 left-1/2 transform -translate-x-1/2"
+    animateOnce={false}
+  >
+    <RxDoubleArrowDown className="text-4xl motion-preset-fade animate-bounce" />
+  </ScrollAnimation>
   );
 }
 
