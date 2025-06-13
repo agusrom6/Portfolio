@@ -4,7 +4,6 @@ import { SiGithub, SiLinkedin, SiDiscord } from "react-icons/si";
 import ScrollAnimation from "react-animate-on-scroll";
 import { FaCopy } from "react-icons/fa";
 
-
 const DiscordTag = () => {
   const [copied, setCopied] = useState(false);
   const discordUser = "agusttpro";
