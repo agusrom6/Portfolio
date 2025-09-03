@@ -2,7 +2,6 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { RxDoubleArrowDown } from "react-icons/rx";
 import ScrollAnimation from "react-animate-on-scroll";
-import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.compat.css";
 
 function Home() {
