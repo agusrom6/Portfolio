@@ -35,14 +35,11 @@ function Home() {
         className="absolute bottom-6 left-1/2 transform -translate-x-1/2"
         animateOnce={false}
       >
-
-        <RxDoubleArrowDown className="text-4xl motion-preset-fade animate-bounce" />
       </ScrollAnimation>
 
       <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2">
-        <RxDoubleArrowDown className="text-4xl animate-bounce motion-preset-fade motion-duration-2000" />
+        <RxDoubleArrowDown className="text-4xl text-[var(--primary-100)] animate-bounce motion-preset-fade motion-duration-2000" />
       </div>
-        <RxDoubleArrowDown className="text-4xl text-[var(--primary-100)] motion-preset-fade animate-bounce" />
     </div>
   );
 }
