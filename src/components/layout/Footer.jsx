@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="bg-[#4D0155] text-[#E0E0E0] py-6">
+    <footer className=" text-[#E0E0E0] py-6">
     <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
       
       {/* Texto y derechos reservados */}

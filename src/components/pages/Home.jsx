@@ -2,16 +2,17 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { RxDoubleArrowDown } from "react-icons/rx";
 import ScrollAnimation from "react-animate-on-scroll";
+import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.compat.css";
 
 function Home() {
   return (
-    <div className="bg-radial-gradient text-white h-screen flex flex-col justify-center text-center">
+    <div className=" text-white h-screen flex flex-col justify-center text-center">
       <h2 className="lg:text-6xl text-3xl font-bold motion-preset-bounce -motion-translate-y-in-150">
         Hola, soy Agustina Romer!
       </h2>
 
-      <p className="text-[var(--primary-300)] text-xl mt-4 motion-preset-fade motion-duration-2000">
+      <p className="text-[var(--primary-200)] text-xl mt-4 motion-preset-fade motion-duration-2000">
         <Typewriter
           words={[
             "Desarrolladora web",
@@ -27,7 +28,6 @@ function Home() {
           delaySpeed={1500}
         />
       </p>
-
       <ScrollAnimation
         animateIn="fadeInUp"
         animateOut="fadeOutUp"
@@ -36,12 +36,14 @@ function Home() {
         className="absolute bottom-6 left-1/2 transform -translate-x-1/2"
         animateOnce={false}
       >
+
         <RxDoubleArrowDown className="text-4xl motion-preset-fade animate-bounce" />
       </ScrollAnimation>
 
       <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2">
         <RxDoubleArrowDown className="text-4xl animate-bounce motion-preset-fade motion-duration-2000" />
       </div>
+        <RxDoubleArrowDown className="text-4xl text-[var(--primary-100)] motion-preset-fade animate-bounce" />
     </div>
   );
 }

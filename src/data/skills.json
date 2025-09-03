@@ -16,10 +16,11 @@
     { "id": 12, "name": "Photoshop", "level": "Intermedio", "img":"photoshop.svg"}
   ],
   "Desarrollo backend y herramientas": [
-    { "id": 13, "name": "Node", "level": "Avanzado", "img":"nodejs.svg" },
-    { "id": 14, "name": "Python", "level": "Básico", "img":"python.svg"  },
-    { "id": 15, "name": "Git", "level": "Avanzado", "img":"git.svg" },
-    { "id": 16, "name": "GitHub", "level": "Avanzado", "img":"github-dark.svg" },
-    { "id": 17, "name": "Postman", "level": "Básico", "img":"postman.svg"}
+    { "id": 13, "name": "Node", "level": "Básico", "img":"nodejs.svg" },
+    { "id": 14, "name": "Python", "level": "Intermedio", "img":"python.svg"  },
+    { "id": 15, "name": "C", "level": "Básico", "img":"c.svg"  },
+    { "id": 16, "name": "Git", "level": "Avanzado", "img":"git.svg" },
+    { "id": 17, "name": "GitHub", "level": "Avanzado", "img":"github-dark.svg" },
+    { "id": 18, "name": "Postman", "level": "Básico", "img":"postman.svg"}
   ]
 }

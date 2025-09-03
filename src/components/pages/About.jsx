@@ -4,30 +4,6 @@ import { SiGithub, SiLinkedin, SiDiscord } from "react-icons/si";
 import ScrollAnimation from "react-animate-on-scroll";
 import { FaCopy } from "react-icons/fa";
 
-const DiscordTag = () => {
-  const [copied, setCopied] = useState(false);
-  const discordUser = "agusttpro";
-
-  const copyToClipboard = () => {
-    navigator.clipboard.writeText(discordUser);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
-
-  return (
-    <div className="flex items-center gap-2 border border-gray-500 px-3 py-2 rounded-lg shadow-sm bg-white/10 backdrop-blur-sm">
-      <SiDiscord size={24} className="text-[var(--accent-100)]" />
-      <span className="text-[var(--text-100)] font-medium">{discordUser}</span>
-      <button
-        onClick={copyToClipboard}
-        className="flex items-center gap-1 text-sm text-white bg-[var(--accent-100)] hover:bg-blue-700 px-2 py-1 rounded transition"
-      >
-        <FaCopy size={14} />
-        {copied ? "Copiado" : "Copiar"}
-      </button>
-    </div>
-  );
-};
 
 function About() {
   return (
@@ -35,7 +11,7 @@ function About() {
       {/* Sección de Skills */}
       <ScrollAnimation animateIn="fadeInLeftBig">
         <div className="hover:shadow-[1px_1px_97px_93px_rgba(109,32,209,0.24)] transition-transform duration-500 hover:scale-110 w-full md:w-[500px] h-auto md:h-[600px] flex flex-col justify-between p-6 rounded-lg shadow-lg">
-          <h2 className="text-4xl font-bold mb-4 text-center">Mis skills</h2>
+          <h2 className="text-4xl font-bold mb-4 text-center">Skills</h2>
           {Object.entries(skills).map(([category, skillList]) => (
             <div key={category} className="mb-6">
               <h3 className="text-2xl font-semibold mb-2">{category}</h3>
@@ -69,9 +45,9 @@ function About() {
             ¡Hola! 👋 <br />
             Soy estudiante de Ingeniería Informática de Buenos Aires, Argentina,
             con una gran pasión por el desarrollo frontend. Me encanta crear
-            interfaces modernas, funcionales y accesibles. <br /> Mi enfoque
+            interfaces modernas, funcionales y accesibles. <br /><span className="text-[var(--accent-100)]">Mi enfoque
             está en escribir código limpio, optimizado y escalable, siempre
-            buscando mejorar la experiencia del usuario. Actualmente, sigo
+            buscando mejorar la experiencia del usuario. </span> Actualmente, sigo
             aprendiendo y explorando nuevas herramientas para llevar mis
             proyectos al siguiente nivel.
           </p>
@@ -94,9 +70,6 @@ function About() {
                 <SiLinkedin />
               </a>
             </div>
-
-            {/* DiscordTag aquí */}
-            <DiscordTag />
           </div>
         </div>
       </ScrollAnimation>

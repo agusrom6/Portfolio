@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Ta Te Ti",
+    "description": "Juego interactivo hecho con React + TailwindCSS. Detecta ganador, permite reiniciar y ofrece una interfaz minimalista.",
+    "image": "Projects/tateti.png",
+    "repo": "https://github.com/agusrom6/tateti",
+    "demo": "https://tateti-sigma.vercel.app/"
+  },
+  {
+    "id": 2,
+    "title": "Plan & Pricing Dashboard",
+    "description": "Interfaz de planes y precios desarrollada con React + TailwindCSS, con navegación lateral y diseño responsivo estilo panel administrativo.",
+    "image": "Projects/prices-plans.png",
+    "repo": "https://github.com/agusrom6/prices-plans",
+    "demo": "https://prices-plans.vercel.app/"
+   },
+ {
+    "id": 3,
+    "title": "Urban Cafe",
+    "description": "Landing page responsive para restaurante, hecha con React + TypeScript + TailwindCSS. Incluye menú dinámico, especialidades, historia y formulario de contacto.",
+    "image": "Projects/urbancafe.png",
+    "repo": "https://github.com/agusrom6/UrbanCafe",
+    "demo": "https://urban-cafe.vercel.app/"
+  },
+  {
+    "id": 4,
+    "title": "Nota app",
+    "description": "App web en React + TailwindCSS para crear, listar y eliminar notas con fecha y hora. Minimalista, responsiva y desplegada en Vercel.",
+    "image": "Projects/nota.png",
+    "repo": "https://github.com/agusrom6/notaApp",
+    "demo": "https://proyecto2.vercel.app/"
+  }
+]
