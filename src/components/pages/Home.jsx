@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className=" text-white h-screen flex flex-col justify-center text-center">
       <h2 className="lg:text-6xl text-3xl font-bold motion-preset-bounce -motion-translate-y-in-150">
-        Hola, soy Agustina Romer!
+        ¡Hola, soy Agustina Romer!
       </h2>
 
       <p className="text-[var(--primary-200)] text-xl mt-4 motion-preset-fade motion-duration-2000">
