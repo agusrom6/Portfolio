@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import skills from "../../data/skills.json";
-import { SiGithub, SiLinkedin, SiDiscord } from "react-icons/si";
-import ScrollAnimation from "react-animate-on-scroll";
-import { FaCopy } from "react-icons/fa";
+import { SiGithub, SiLinkedin } from "react-icons/si";
+import ScrollAnimation from "react-animate-on-scroll"; 
 
 
 function About() {
