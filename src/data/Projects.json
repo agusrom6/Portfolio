@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "title": "Ta Te Ti",
-    "stack": ["React", "TailwindCSS"],
-    "description": "Ejercicio de lógica y estado en frontend. Implementa detección de ganador, reinicio de partida y actualizaciones dinámicas en la UI, trabajando arrays y condiciones para la mecánica del juego.",
-    "image": "Projects/tateti.png",
-    "repo": "https://github.com/agusrom6/tateti",
-    "demo": "https://tateti-sigma.vercel.app/"
+    "title": "Infracciones Centro",
+    "stack": ["NextJS", "TailwindCSS"],
+    "description": "Web corporativa optimizada para conversión que automatiza la gestión de consultas por infracciones de tránsito, con foco en performance, SEO y escalabilidad.",
+    "image": "Projects/sc.webp",
+    "repo": "private",
+    "demo": "https://infraccionescentro.com"
   },
   {
     "id": 2,
@@ -25,14 +25,5 @@
     "image": "Projects/urbancafe.png",
     "repo": "https://github.com/agusrom6/UrbanCafe",
     "demo": "https://urban-cafe.vercel.app/"
-  },
-  {
-    "id": 4,
-    "title": "Nota app",
-    "stack": ["React", "TailwindCSS"],
-    "description": "Aplicación CRUD sencilla para gestionar notas. Registra fecha y hora automáticamente y practica conceptos de ciclo de vida, estados y eventos en React, con énfasis en usabilidad y diseño limpio.",
-    "image": "Projects/nota.png",
-    "repo": "https://github.com/agusrom6/notaApp",
-    "demo": "https://proyecto2.vercel.app/"
   }
 ]

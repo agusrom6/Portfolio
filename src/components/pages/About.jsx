@@ -22,7 +22,7 @@ function About() {
                       alt={skill.name}
                       className="w-12 h-12 cursor-pointer transition-transform transform group-hover:scale-110"
                     />
-                    <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 opacity-0 group-hover:opacity-100 transition-all bg-[var(--bg-100)] text-[var(--text-200)] text-sm p-2 rounded-md shadow-lg">
+                    <div className="absolute bg-[var(--primary-100)] left-1/2 -translate-x-1/2 bottom-full mb-2 opacity-0 group-hover:opacity-100 transition-all text-[var(--text-200)] text-sm p-2 rounded-md shadow-lg">
                       <strong>{skill.name}</strong> <br />
                       <span>{skill.level}</span>
                     </div>

@@ -1,10 +1,11 @@
 import React from "react";
 import { FaCode, FaLaptop, FaReact } from "react-icons/fa6";
-import { SiTailwindcss, SiTypescript} from "react-icons/si";
+import { SiTailwindcss, SiTypescript, SiNextdotjs } from "react-icons/si";
 
 export const Card = ({ image, title, description, demo, repo, stack }) => {
   const iconMap = {
     React: <FaReact className="text-cyan-400" title="React" />,
+    NextJS: <SiNextdotjs className="text-white" title="NextJS" />,
     TailwindCSS: <SiTailwindcss className="text-sky-400" title="TailwindCSS" />,
     TypeScript: <SiTypescript className="text-blue-500" title="TypeScript" />,
   };
@@ -21,7 +22,9 @@ export const Card = ({ image, title, description, demo, repo, stack }) => {
       <div className="flex gap-2 items-center mb-2">
         <h3 className="text-2xl font-semibold mb-2">{title}</h3>
         {stack.map((tech, index) => (
-          <span key={index} className="text-2xl">{iconMap[tech]}</span>
+          <span key={index} className="text-2xl">
+            {iconMap[tech]}
+          </span>
         ))}
       </div>
       <p className="text-lg text-gray-300">{description}</p>
